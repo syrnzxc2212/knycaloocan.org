@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donate - Caloocan Cares</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar"> 
+        <div class="logo"> <img src="images/650214766_957023653841620_2860628255667724414_n.jpg" alt="Caloocan logo"> <h2>KNY Caloocan</h2></div>
+
+        <ul class="navlinks">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About us</a></li>
+            <li><a href="program.html" class="nav-link">Programs</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li> 
+            <li><a href="donate.html" class="donate">DONATE</a></li>
+        </ul>
+    </nav>   
+
+    <script>
+const links = document.querySelectorAll(".nav-link");
+
+links.forEach(link => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+    }
+});
+</script>
+
+</header>
+
+
+<section class="donate-page">
+    <p><span class="about-us fade-in-top-normal">Support Us</span></p>
+    <h1 class="scale-up-top-normal">Support Our Cause</h1>
+    <p class="fade-in-normal">Scan the QR code below to send your donation.</p>
+
+    <div class="qr-box fade-in-bottom-normal">
+        <img src="images/520575078_122149404062766152_1256042240874753059_n.jpg" alt="Donation">
+    </div>
+
+    <p class="fade-in-bottom-normal delay">Thank you for your support ❤️</p>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h3>💚 KNY Caloocan</h3>
+      <p>Building stronger communities together in Caloocan City.</p>
+    </div>
+
+    <div class="footer-links">
+
+      <div>
+        <h4>About</h4>
+        <a href="about.html#about-us">Who We Are</a>
+        <a href="about.html#mission-vision">Mission & Vision</a>
+      </div>
+
+      <div>
+        <h4>Programs</h4>
+        <a href="program.html#grid-container">Donation</a>
+        <a href="program.html#advocacy">Advocacy</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Bagong Barrio,<br> South Caloocan City, Metro Manila</p>
+        <p>hello@knycaloocan.org</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 KNY Caloocan Cares. All rights reserved.</p>
+  </div>
+</footer>
+
+
+</body>
+</html>

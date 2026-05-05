@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css">
+    <title>knycaloocan.org</title>
+</head>
+<header>
+    <nav class="navbar"> 
+        <div class="logo"> <img src="images/650214766_957023653841620_2860628255667724414_n.jpg" alt="Caloocan logo"> <h2>KNY Caloocan</h2></div>
+
+        <ul class="navlinks">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About us</a></li>
+            <li><a href="program.html" class="nav-link">Programs</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li> 
+            <li><a href="donate.html" class="donate">DONATE</a></li>
+        </ul>
+    </nav>   
+
+    <script>
+const links = document.querySelectorAll(".nav-link");
+
+links.forEach(link => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+    }
+});
+</script>
+
+</header>
+<body>
+    <section class="hero">
+    
+  <div class="hero-content">
+    <p><span class="community-glass fade-in-top-normal">Caloocan City Community Support</span></p>
+  <h1 class="scale-up-top-normal">Building Stronger<br><span class="highlight scale-up-top-normal">Communities</span> Together</h1>
+  <p class="fade-in-normal">Your donation creates lasting impact in Caloocan City<br> families. Join us in making real change, one life at a time</p>  
+  <h2 class="fade-in-left-normal"><a href="donate.html">DONATE US</a></h2>
+</div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h3>💚 KNY Caloocan</h3>
+      <p>Building stronger communities together in Caloocan City.</p>
+    </div>
+
+    <div class="footer-links">
+
+      <div>
+        <h4>About</h4>
+        <a href="about.html#about-us">Who We Are</a>
+        <a href="about.html#mission-vision">Mission & Vision</a>
+      </div>
+
+      <div>
+        <h4>Programs</h4>
+        <a href="program.html#grid-container">Donation</a>
+        <a href="program.html#advocacy">Advocacy</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Bagong Barrio,<br> South Caloocan City, Metro Manila</p>
+        <p>hello@knycaloocan.org</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 KNY Caloocan Cares. All rights reserved.</p>
+  </div>
+</footer>
+    
+</body>
+</html>

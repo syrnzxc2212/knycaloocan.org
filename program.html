@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>knycaloocan.org</title>
+</head>
+<header>
+    <nav class="navbar"> 
+        <div class="logo"> <img src="images/650214766_957023653841620_2860628255667724414_n.jpg" alt="Caloocan logo"> <h2>KNY Caloocan</h2></div>
+
+        <ul class="navlinks">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About us</a></li>
+            <li><a href="program.html" class="nav-link">Programs</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li> 
+            <li><a href="donate.html" class="donate">DONATE</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+const links = document.querySelectorAll(".nav-link");
+
+links.forEach(link => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+    }
+});
+</script>
+
+</header>
+<body>
+
+     <section class="program">
+        <p><span class=" wwd-glass fade-in-top-normal ">What We Do</span></p>
+         <div class="program-content">
+            <h1 class="scale-up-top-normal">Our Programs</h1>
+            <p class="fade-in-normal">Explore our advocacy programs designed to create real, lasting change in Caloocan City communities.</p>  
+        </div>
+
+        <div class="grid-container fade-in-bottom-normal">
+    <div class="item"><img src="images/686901424_990458803538337_4386855258115236536_n.jpg" alt="donation-picture"></div>
+    <div class="item"><img src="images/686961192_912338935147027_7021688140070498435_n.jpg" alt="donation-picture"></div>
+    <div class="item"><img src="images/686985567_906261015784890_1560419657046444310_n.jpg" alt="donation-picture"></div>
+    <div class="item"><img src="images/687821455_958096456833560_8633350212559903800_n.jpg" alt="donation-picture"></div>
+  </div>
+
+        <p><span class=" wwd-glass">What We Advocate</span></p>
+        <div class="advocacy"><h1>Our Advocacy Programs</h1></div>
+
+        <div class="leadership-community">
+            <div class="box leadership">
+                <h2>Leadership Development Advocacy</h2>
+                <p>Leadership Development Advocacy – encourages individuals, especially youth, to become responsible and active leaders in the community.</p>
+                </div>
+
+        <div class="box community">
+                <h2>Community Leadership Advocacy</h2>
+                <p>Community Leadership Advocacy – promotes leadership through service, volunteerism, and community involvement.</p>
+                </div>
+        
+    </section>
+
+   <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h3>💚 KNY Caloocan</h3>
+      <p>Building stronger communities together in Caloocan City.</p>
+    </div>
+
+    <div class="footer-links">
+
+      <div>
+        <h4>About</h4>
+        <a href="about.html#about-us">Who We Are</a>
+        <a href="about.html#mission-vision">Mission & Vision</a>
+      </div>
+
+      <div>
+        <h4>Programs</h4>
+        <a href="program.html#grid-container">Donation</a>
+        <a href="program.html#advocacy">Advocacy</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Bagong Barrio,<br> South Caloocan City, Metro Manila</p>
+        <p>hello@knycaloocan.org</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 KNY Caloocan Cares. All rights reserved.</p>
+  </div>
+</footer>
+    
+</body>
+</html>
