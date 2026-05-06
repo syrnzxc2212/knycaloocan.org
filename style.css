@@ -330,7 +330,7 @@ h1, h2, h3, p {
  
   border: 1px solid var(--secondary-blue);
 
-  color: var(--dark-navy);
+  color: red
   font-weight: 500;
 
  
@@ -425,7 +425,7 @@ h1, h2, h3, p {
 
   border: 1px solid var(--secondary-blue);
 
-  color: var(--dark-navy);
+  color: red
   font-weight: 500;
 
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
@@ -535,7 +535,7 @@ h1, h2, h3, p {
  
   border: 1px solid var(--dark-green);
 
-  color: var(--dark-navy);
+  color: red
   font-weight: 400;
 
  
@@ -668,7 +668,7 @@ iframe {
 }
 
 .donate-page p {
-    color: var(--dark-navy);
+    color: red
     font-weight: 400;
 }
 
